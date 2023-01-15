@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import AboutUs from './sections/AboutUs';
-import LanguageSwitcher from './components/LanguageSwitcher';
-
+import Services from './sections/Services';
 function App() {
   return (
     <div className="App">
       <AboutUs />
-      <LanguageSwitcher />
+      <Services />
 
     </div>
   );

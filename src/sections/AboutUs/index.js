@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
-import { AboutUsContainer, AboutUsHeader, AboutUsTitle, Logo } from './aboutUsElements';
+import { AboutUsContainer, AboutUsDescription, AboutUsHeader, AboutUsTitle, Logo, RightSide } from './aboutUsElements';
 import LanguageSwitcher from '../../components/LanguageSwitcher';
 
 console.log('dsadsa',);
@@ -15,7 +15,13 @@ const Index = () => {
                 <Logo src={require('../../images/logoMadeIn.png')} />
                 <LanguageSwitcher />
 
+
+
             </AboutUsHeader>
+            <RightSide>
+                <AboutUsTitle>{t('aboutUs.title')}</AboutUsTitle>
+
+            </RightSide>
 
         </AboutUsContainer>
         // <div>

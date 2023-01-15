@@ -31,10 +31,10 @@ const LanguageSwitcherContainer = styled.div`
     height: 100px;
 `;
 const LanguageSwitcherButton = styled.button`
-    width: 140px;
+    width: 150px;
     height: 50px;
     background-color: transparent;
-    margin-right: 10px;
+    margin-right: 0px;
     border: none;
     color: #fff;
     cursor: pointer;

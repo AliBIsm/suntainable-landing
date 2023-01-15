@@ -7,8 +7,9 @@ export const AboutUsContainer = styled.div`
     
     padding: 0 30px;
     background-image: url(${img});
+        height: 480px;
     background-size: cover;
-    height: 962px;
+    background-position: center;
     z-index: 1;
 `;
 

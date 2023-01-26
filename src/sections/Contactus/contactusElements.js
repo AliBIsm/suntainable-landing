@@ -12,9 +12,7 @@ export const ContactusContainer = styled.div`
             }
 `;
 export const ContactusWrapper = styled.div`
-    width: 70%;
     margin-bottom: 50px;
-    margin: 0 auto;
     margin-top: 200px;
 
 
@@ -41,6 +39,8 @@ export const ContactusTitleWrapper = styled.div`
     padding-bottom: 10px;
     width: 35%;
     margin-bottom: 60px;
+    margin-left: 20px;
+
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -61,11 +61,12 @@ export const ContactusTitle = styled.h1`
 export const Form = styled.form`
 width: 100%;
 display: flex;
+width: 70%;
 flex-direction: row;
 justify-content:space-evenly;
 justify-content: center;
 align-items: center;
-
+margin: 0 auto;
 @media screen and (max-width: 768px) {
     flex-direction: column;
 }

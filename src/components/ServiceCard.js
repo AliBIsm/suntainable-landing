@@ -16,13 +16,28 @@ const ServiceCard = (props) => {
 const ServiceCardContainer = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 5px;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
 `;
 
 const ServiceCardIcon = styled.img`
-    height: 140px;
-    width: 140px;
+    width: 199px;
+    height: 116px;
+    margin-left: 20px;
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: -20px;
+    }
 
 `;
 

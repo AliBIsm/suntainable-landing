@@ -29,6 +29,10 @@ const LanguageSwitcherContainer = styled.div`
     flex-direction: row;
     align-items: center;
     height: 100px;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+    
 `;
 const LanguageSwitcherButton = styled.button`
     width: 150px;

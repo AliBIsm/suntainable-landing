@@ -6,12 +6,24 @@ export const ServicesContainer = styled.div`
 
     background: #010606;
     @media screen and (max-width: 768px) {
-        height: 1100px;
+
     }
     @media screen and (max-width: 480px) {
-        height: 1300px;
-    }
+            }
 `;
+export const ServicesWrapper = styled.div`
+
+    margin-bottom: 50px;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 480px) {
+        width: 400px;
+}
+`;
+
+
 
 export const ServiceIntro = styled.div`
     display: flex;
@@ -22,10 +34,18 @@ export const ServiceIntro = styled.div`
     margin-bottom: 220px;
 `;
 
+export const ServiceIntoWrapper = styled.div`
+    border-bottom: 20px solid #F5CA2F;
+    padding-bottom: 10px;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+`;
 export const ServiceIntroTitle = styled.h1`
     color: #fff;
     font-size: 2.2rem;
-    margin-bottom: -20px;
+    margin-bottom: -25px;
     text-align: center;
     @media screen and (max-width: 480px) {
         font-size: 2rem;
@@ -33,26 +53,51 @@ export const ServiceIntroTitle = styled.h1`
 `;
 
 
-export const ServicesWrapper = styled.div`
-    
-  
-    @media screen and (max-width: 1000px) {
-        grid-template-columns: 1fr 1fr;
-    }
-    @media screen and (max-width: 768px) {
+export const ServiceCardTitleWrapper = styled.div`
+    border-bottom: 20px solid #F5CA2F;
 
-        grid-template-columns: 1fr;
-        padding: 0 20px;
+    padding-bottom: 10px;
+    width: 35%; 
+    margin-left: 30px;   
+    margin-bottom: 60px;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        margin-left: 0;
+
+    }
+    
+
+    `;
+
+
+
+
+export const ServiceCardTitle = styled.h2`
+    font-size: 2.5rem;
+    align-self: flex-start;
+    color: #fff;
+    margin-bottom: -25px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 2rem;
     }
 `;
 
-export const ServiceCardTitle = styled.h2`
-    font-size: 1.8rem;
-    position: relative;
-    font-weight: 800;
-    margin-right: 220px;
-    align-self: flex-start;
-    color: #fff;
-    margin-bottom: 10px;
+export const StoresWrapper = styled.div`
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    align-items: center;
+    margin-bottom: 100px;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        width: 100%;
+
+
+    }
 `;
 

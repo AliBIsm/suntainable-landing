@@ -19,6 +19,7 @@ const index = () => {
                                 image={item.image}
                                 name={item.name}
                                 title={item.title}
+                                linkedin={item.linkedin}
                             />
                         )
                     })}

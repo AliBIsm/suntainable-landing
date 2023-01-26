@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const TeamCard = (props) => {
     return (
-        <TeamCardContainer>
+        <TeamCardContainer onClick={() => { window.open(props.linkedin) }}>
             <TeamCardIcon src={props.image} />
             <TeamInfoWrapper>
                 <TeamCardTitle>{props.name}</TeamCardTitle>
@@ -25,7 +25,7 @@ const TeamCardIcon = styled.img`
     width: 199px;
     height: 199px;
     margin-left: 20px;
-    border-radius: 10px;
+    border-radius: 100px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
     &:hover {

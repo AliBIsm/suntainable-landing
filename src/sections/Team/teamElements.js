@@ -14,7 +14,6 @@ export const TeamWrapper = styled.div`
     display: flex;
     flex-direction: column;
 
-    margin-bottom: 220px;
     padding-top: 80px;
 
     

@@ -89,6 +89,7 @@ export const StoresWrapper = styled.div`
     width: 60%;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 0 auto;
     padding: 5px;
     align-items: center;
     margin-bottom: 100px;
